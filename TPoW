@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Harae"
+}
+
+game:GetService("ReplicatedStorage").Events.DJAbilities:FireServer(unpack(args))
